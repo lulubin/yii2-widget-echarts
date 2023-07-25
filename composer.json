@@ -1,0 +1,25 @@
+{
+    "name": "lulubin/yii2-widget-echarts",
+    "description": "An Yii2 widget for echarts",
+    "keywords": ["yii2", "extension", "widget", "echarts"],
+    "homepage": "https://github.com/lulubin/yii2-widget-echarts",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lulubin",
+            "email": "452936616@qq.com",
+            "homepage": "https://lulunlog.cn/"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/echarts": "*"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "lulubin\\echarts\\": "src/"
+        }
+    }
+}
